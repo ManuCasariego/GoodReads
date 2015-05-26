@@ -46,7 +46,6 @@ public class ListBooksActivityFragment extends Fragment {
     private void inicializarComponentes() {
         progressDialog = new ProgressDialog(rootView.getContext());
 
-
         recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerView);
 
         adapter = new ManuAdapter(new ArrayList<Book>());
